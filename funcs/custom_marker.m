@@ -32,9 +32,9 @@ function custom_marker(type, x, y, size)
                 'k',[0.2*size+x 0.4*size+x],[1*size+y -1*size+y],'k', 'LineWidth',0.5)
             
         case 'Ld'
-            x_array=[-0.5 +0.5 +0.5 +1.5  0 -1.5 -0.5 -0.5] ;
-            y_array=[-3.7500 -3.7500 1.2500 1.2500 3.7500 1.2500 1.2500 1.2500];
-            plotCustMark(x, y, x_array, y_array, size, 1, [1 0 0]);
+            x_array=[0 0 +1  0 -1 0];
+            y_array=[-3.7500 1.2500 1.2500 3.7500 1.2500 1.2500];
+            plotCustMark(x, y, x_array, y_array, size, 1.5, [1 0 0]);
     end
 end
 
